@@ -1,0 +1,60 @@
+body{
+    margin:0;
+    font-style: oblique;
+}
+
+header{
+    background-color: brown;
+    color: bisque;
+    padding:20px;
+}
+
+nav{
+    display:flex;
+    justify-content:end;
+    background-color: bisque;
+}
+
+nav a{
+    color:black;
+    padding:14px 20px;
+    text-decoration:none;
+}
+
+nav a:hover{
+    background:#777;
+}
+
+.container{
+    display:flex;
+}
+
+main{
+    flex:3;
+    padding:20px;
+    background:#f2f2f2;
+    height: 500px;
+}
+
+aside{
+    flex:1;
+    padding:20px;
+    background:#ddd;
+}
+
+footer{
+    background:#333;
+    color:white;
+    text-align:center;
+    padding:10px;
+}
+img
+{
+    display: inline;
+    border: 2px solid;
+    padding: 10px;
+    margin-left: 20px;
+}
+img:hover{
+    background-color: black;
+}
